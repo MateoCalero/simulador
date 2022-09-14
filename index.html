@@ -5,10 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Este es un Simulador de un carrito de compras</h1>
 
-    <script src="./main.js"></script>
+    <div class="container">
+        <h2></h2>
+        <section class="container__card">
+            <article class="card">
+                <h3>Pijama</h3>
+                <img src="./images/pijama-rojo.png" alt="pijama">
+                <p>$2000</p>
+                <button class="btn-carrito pijama">Añadir a carrito</button>
+            </article>
+            <article class="card">
+                <h3>Remera de spum</h3>
+                <img src="./images/remera-spum.png" alt="remera spum">
+                <p>$1600</p>
+                <button class="btn-carrito remeraSpum">Añadir a carrito</button>
+            </article>
+            <article class="card">
+                <h3>Taza de ceramica</h3>
+                <img src="./images/taza.png" alt="taza de ceramica">
+                <p>$1200</p>
+                <button class="btn-carrito taza">Añadir a carrito</button>
+            </article>
+            <article class="card">
+                <h3>Remera de algodon</h3>
+                <img src="./images/remera-algodon.png" alt="remera de algodon">
+                <p>$3000</p>
+                <button class="btn-carrito remeraAlg">Añadir a carrito</button>
+            </article>
+            <article class="card">
+                <h3>Chopp de aluminio</h3>
+                <img src="./images/chopp-aluminio.png" alt="chopp aluminio">
+                <p>$1800</p>
+                <button class="btn-carrito chopp">Añadir a carrito</button>
+            </article>
+
+            <article class="total">
+                <h4>Total a pagar</h4>
+                <span class="acumulador">0</span>
+                <!-- <button class="btn-finalizar">Finalizar compra</button> -->
+            </article>
+            
+        </section>
+    </div>
+
+     <script src="./main.js"></script> 
 </body>
 </html>
